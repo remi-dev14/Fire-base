@@ -1,0 +1,14 @@
+[
+  {
+    "id": "1",
+    "email": "admin@example.com",
+    "passwordHash": "$2a$08$TKu4TQ72/eZxDTXpE2Y/uuofyP8VRY9TashsxvvM0BJpctZxA5hze",
+    "name": "Admin"
+  },
+  {
+    "id": "1770106756887",
+    "email": "user@example.com",
+    "passwordHash": "$2a$08$CSSkt0DeNvrASKWfOfrcgeBdffSqlt2rhsn4yo5DtBRjplZrMWC0y",
+    "name": "PasswordName"
+  }
+]
