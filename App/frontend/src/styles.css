@@ -1,0 +1,70 @@
+:root{
+	--bg:#f7f8fb;
+	--card:#ffffff;
+	--muted:#666;
+	--accent:#3498db;
+	--success:#2ecc71;
+	--warning:#f39c12;
+}
+body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; background:linear-gradient(180deg,#f7f9fc 0%,var(--bg) 60%); color:#0f1724; -webkit-font-smoothing:antialiased}
+#root{max-width:1200px;margin:0 auto;padding:28px}
+
+/* Header / nav */
+.app-header{display:flex;justify-content:space-between;align-items:center;padding:12px 0;margin-bottom:18px}
+.brand{font-weight:700;color:var(--accent);font-size:18px}
+.nav{display:inline-flex;gap:12px}
+.nav a{color:#334155;text-decoration:none;padding:6px 10px;border-radius:8px;font-weight:600}
+.nav a:hover{background:rgba(52,152,219,0.08);color:var(--accent)}
+
+.lead{color:var(--muted)}
+.card{background:var(--card);padding:12px;border-radius:6px;box-shadow:0 1px 2px rgba(0,0,0,0.03)}
+.stats-grid{display:grid;grid-template-columns:1fr 360px;gap:16px}
+.small{font-size:14px}
+
+/* Typography */
+:root{
+	--font-sans: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+	--h1-size: 24px;
+	--h2-size: 20px;
+}
+h1{font-size:var(--h1-size);margin:0 0 8px}
+h2{font-size:var(--h2-size);margin:0 0 8px}
+
+/* Buttons */
+button{background:var(--accent);color:white;border:none;padding:10px 12px;border-radius:8px;cursor:pointer;font-weight:600}
+button.secondary{background:#eee;color:#222}
+button.ghost{background:transparent;border:1px solid #ddd;color:var(--muted)}
+button[disabled]{opacity:0.6;cursor:default}
+
+/* Inputs / forms */
+input,select,textarea{padding:10px;border:1px solid #e6e6e6;border-radius:8px;background:white}
+label{display:block;color:var(--muted);font-size:13px}
+
+.form-row{display:flex;gap:10px}
+.form-row > label{flex:1}
+
+/* Small utility cards */
+.card{background:var(--card);padding:16px;border-radius:12px;box-shadow:0 8px 24px rgba(16,24,40,0.06);border:1px solid rgba(15,23,36,0.03)}
+
+.stats-grid{display:grid;grid-template-columns:1fr 360px;gap:16px}
+.small{font-size:14px}
+
+/* Responsive tweaks */
+@media (max-width:1024px){
+	.stats-grid{grid-template-columns:1fr 320px}
+}
+@media (max-width:800px){
+	.stats-grid{grid-template-columns:1fr}
+	#root{padding:12px}
+	button{padding:8px 10px}
+}
+
+/* Utilities */
+.muted{color:var(--muted)}
+.flex{display:flex}
+.gap-8{gap:8px}
+
+/* Map tweaks */
+#map{min-height:60vh;width:100%;border-radius:10px;overflow:hidden;border:1px solid rgba(15,23,36,0.06);box-shadow:0 6px 18px rgba(2,6,23,0.06)}
+.leaflet-container{background:transparent}
+.muted{color:var(--muted)}
