@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.antananarivo.backend.AuthIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.76 s -- in com.antananarivo.backend.AuthIntegrationTest
